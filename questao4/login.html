@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login em uma Conta Google</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" type="image/x-icon" href="/images/googleFaticon.svg">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-12">
+          <img
+            src="./images/logo.svg"
+            class="img-fluid mb-4"
+            alt="Google Logo"
+          />
+          <h1 class="mb-4">Login em sua Conta Google</h1>
+        </div>
+
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label"></label>
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  placeholder="Nome de usuário"
+                />
+                <span class="input-group-text bg-light">@gmail.com</span>
+              </div>
+            </div>
+            <div class="mt-12">
+              <a
+                href=""
+                class="text-decoration-none fw-bold"
+                id="changeEmailLink"
+                >Usar meu endereço de e-mail atual em vez disso</a
+              >
+            </div>
+            <div class="mb-3 row">
+              <div class="col-md-10">
+                <label for="password" class="form-label"></label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Senha"
+                />
+              </div>
+              <div class="col-md-1 d-flex align-items-end">
+                <button
+                  class="btn btn-outline-secondary toggle-password"
+                  type="button"
+                >
+                  <i class="fas fa-eye"></i>
+                </button>
+              </div>
+            </div>
+            <div class="mb-6 row justify-content-between">
+              <div class="col-md-6 mb-3">
+                <a href="index.html" class="text-decoration-none"
+                  >Crie sua conta</a
+                >
+              </div>
+              <div class="col-md-auto">
+                <button type="submit" class="btn btn-primary btn" id="login">
+                  Login
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="card">
+            <img
+              src="./images/image1.svg"
+              class="card-img-top google-image"
+              alt="Google Image"
+            />
+            <div class="card-body text-center">
+              <p class="card-text">
+                Uma única conta. Todo o Google trabalhando para você.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./login.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR"
+    ></script>
+  </body>
+</html>

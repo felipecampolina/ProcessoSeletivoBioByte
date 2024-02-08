@@ -1,0 +1,17 @@
+{
+    "codigo_identificacao": "ABC123456",
+    "tipo_autuacao": "Excesso de velocidade",
+    "observacao": "Veículo flagrado a 100km/h em zona de 60km/h",
+    "data": "2024-02-06",
+    "hora": "13:80:30",
+    "endereco_ocorrencia": {
+      "municipio": "Belo Horizonte",
+      "logradouro": "Av Carandai",
+      "numeracao": "362"
+    },
+    "dados_veiculo_autuado": {
+      "marca": "Audi",
+      "modelo": "A3",
+      "placa": "ABC1234"
+    }
+  }

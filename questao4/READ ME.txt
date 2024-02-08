@@ -1,0 +1,8 @@
+Importante ressaltar que essa questão pedia apenas para printar a resposta via backend , entretanto fui um pouco além, criando algumas funcionalidades extras, as quais são:
+Conexão com o MongoDB 
+ADD do usuário no BD
+Página de login funcional, por meio do BD
+
+Como usar?
+
+Inicialize o serevidor.js usando node e entre no index.html( sugiro usar o live-server) --> node servidor.js 

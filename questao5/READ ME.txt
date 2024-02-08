@@ -1,0 +1,2 @@
+Devido a pouco experiência com Angular, foi desenvolvido apenas a parte do front.
+Já estou assistindo aulas extras de um curso para aprimorar o conhecimento dessa nova tecnologia.
