@@ -9,8 +9,9 @@ O projeto consiste em uma aplicação web para análise de dados biológicos usa
 ## Tecnologias Utilizadas
 
 - **Frontend**: Angular, HTML, CSS, Bootstrap
-- **Backend**: Node.js, Express.js
+- **Backend**: Node.js, Express.js,
 - **Banco de Dados**: MongoDB
+- **Outras ferramentas**: R e Rstudio
 
 
 
